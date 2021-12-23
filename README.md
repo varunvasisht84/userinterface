@@ -1,4 +1,7 @@
 # userinterface
+This is a simple Vue app used for a test bed to try Vue concepts like
+vuex, vue-router, vuetify and axios.
+It is also making use of a simple project server to call a simple api.
 
 ## Project setup
 ```
