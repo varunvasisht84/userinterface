@@ -1,15 +1,20 @@
 <template>
-  <hello-world />
+  <div class="about">
+    <h1>This is Home page</h1>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-
+  import GetService from '../apis/getService'
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
     },
+
+    mounted(){
+      let obj = GetService.getPerson();
+      console.log(obj);
+    }
   }
 </script>
